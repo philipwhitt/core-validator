@@ -26,11 +26,11 @@ try {
 	$val = new val\Builder('Philip Whitt');
 	$val->notEmpty()->isOnlyAlpha()->hasLengthGt(2)->get();
 
-} catch (EmptyValueException $e) {
+} catch (val\EmptyValueException $e) {
 	// Handle empty value error
-} catch (AlphaException $e) {
+} catch (val\AlphaException $e) {
 	// Handle non alpha error
-} catch (InvalidLengthException $e) {
+} catch (val\InvalidLengthException $e) {
 	// Handle length error
 }
 
