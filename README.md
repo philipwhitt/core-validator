@@ -14,11 +14,11 @@ try {
 	$val->notEmpty()->isOnlyAlpha()->hasLengthGt(2)->get();
 
 } catch (EmptyValueException $e) {
-	// Handle empty value
+	// Handle empty value error
 } catch (AlphaException $e) {
-	// Handle non alpha
+	// Handle non alpha error
 } catch (InvalidLengthException $e) {
-	// Handle length
+	// Handle length error
 }
 
 ```
@@ -27,13 +27,11 @@ See test/BuilderTest.php for working examples
 
 Validate User Input
 --------------------------------------------
-Using the ParamFactory, its very easy to validate user input from get, post or releated data:
+Using the ParamFactory, its very easy to validate user input from get, post or releated data. Example of a $_POST of name=philip&id=1:
 ```php
 <?php
 
 use Core\Validator as val;
-
-// user posts data name=philip&id=1
 
 $validator = new val\ParamFactory($_REQUEST);
 
