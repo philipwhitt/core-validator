@@ -58,7 +58,6 @@ try {
 // Validate "name"
 try {
 	$name = $validator->getVar('name')->notEmpty()->isOnlyAlpha()->hasLengthGt(2)->get();
-
 } catch (val\Exception $e) {
 	// Handle name error
 }
