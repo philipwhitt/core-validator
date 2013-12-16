@@ -36,7 +36,7 @@ try {
 
 ```
 
-See test/BuilderTest.php for working examples
+See test/BuilderTest.php for more working examples
 
 Validate User Input
 --------------------------------------------
@@ -64,7 +64,7 @@ try {
 }
 ```
 
-See test/ParamFactoryTest.php for working examples
+See test/ParamFactoryTest.php for more working examples
 
 Unit Tests
 ----------
