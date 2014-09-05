@@ -7,7 +7,6 @@ Install via composer
 ```javascript
 {
 	"require": {
-		"php"             : ">=5.3",
 		"core/validator"  : "dev-master"
 	}
 }
