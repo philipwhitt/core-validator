@@ -1,3 +1,5 @@
+[![Build Status](https://drone.io/github.com/philipwhitt/core-validator/status.png)](https://drone.io/github.com/philipwhitt/core-validator/latest)
+
 core-validator
 ==============
 
